@@ -3,7 +3,6 @@
 
 class Rectangle:
     """Represent a rectangle."""
-
     def __init__(self, width=0, height=0):
         """Initialize a new Rectangle.
 
@@ -70,3 +69,7 @@ class Rectangle:
         rect = "Rectangle(" + str(self.__width)
         rect += ", " + str(self.__height) + ")"
         return (rect)
+
+    def __del__(self):
+        """Print a message for every deletion of a Rectangle."""
+        print("Bye rectangle...")
