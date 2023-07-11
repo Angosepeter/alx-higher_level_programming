@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 """
-defines a class checkinf function
+Defines a class checking function
 """
 
 def is_same_class(obj, a_class):
