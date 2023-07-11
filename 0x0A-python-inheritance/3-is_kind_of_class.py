@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 """
 Defines inherited class checking function
 """
