@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 """
-defines a class and an inherited class checking function
+Defines inherited class checking function
 """
 
 def is_same_class(obj, a_class):
